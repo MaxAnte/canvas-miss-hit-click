@@ -18,11 +18,7 @@ function draw(e) {
 
   posx = pos.x;
   posy = pos.y;
-  if (drawType == true) {
-    ctx.fillStyle = "#008000";
-  } else {
-    ctx.fillStyle = "#ff0000";
-  }
+  drawType == true ? (ctx.fillStyle = "#008000") : (ctx.fillStyle = "#ff0000");
   ctx.fillRect(posx, posy, 8, 8);
 }
 
