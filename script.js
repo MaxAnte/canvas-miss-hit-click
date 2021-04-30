@@ -1,5 +1,5 @@
-const WIDTH = 400;
-const HEIGHT = 200;
+const WIDTH = 290;
+const HEIGHT = 310;
 const DPI_WIDTH = WIDTH * 2;
 const DPI_HEIGHT = HEIGHT * 2;
 
@@ -19,7 +19,7 @@ function draw(e) {
   posx = pos.x;
   posy = pos.y;
   drawType == true ? (ctx.fillStyle = "#008000") : (ctx.fillStyle = "#ff0000");
-  ctx.fillRect(posx, posy, 8, 8);
+  ctx.fillRect(posx, posy, 15, 15);
 }
 
 function getMousePos(canvas, evt) {
