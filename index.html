@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Canvas Training</title>
+    <style>
+      body {
+        min-height: 100vh;
+        background: #f9f9f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .wrapper {
+        background: #fff;
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+      }
+      .hit,
+      .miss {
+        background: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 30px;
+        min-width: 50px;
+        border: 1px solid #000;
+        color: red;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .hit {
+        color: green;
+        margin-block: 15px;
+      }
+      .is-active {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+      }
+      canvas {
+        border: 1px solid #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <canvas id="canvas"></canvas>
+      <div class="buttons">
+        <div class="hit">Hit</div>
+        <div class="miss">Miss</div>
+      </div>
+    </div>
+    <script src="./script.js
+    "></script>
+  </body>
+</html>
